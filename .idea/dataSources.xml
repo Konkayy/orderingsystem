@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="orderingsystem@127.0.0.1" uuid="d4bcbab3-d7a9-464e-a59e-18dab8f9afcd">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/orderingsystem?allowPublicKeyRetrieval=true&amp;useSSL=false&amp;characterEncoding=utf8&amp;serverTimezone=GMT%2B8&amp;rewriteBatchedStatements=true</jdbc-url>
+    </data-source>
+  </component>
+</project>
