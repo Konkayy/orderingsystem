@@ -1,12 +1,20 @@
 server:
-  port: 8762
+  port: 8888
 spring:
   application:
     name: configserver
-  profiles:
-    active: native
   cloud:
     config:
       server:
-        native:
-          search-locations: classpath:/shared
+        git:
+          uri: https://github.com/Konkayy/orderingsystem.git #git仓库地址
+          search-paths: config #仓库路径
+          username: Francis #git仓库用户名
+          password: 112211 #git仓库密码
+          default-label: master #仓库的branch
+          force-pull: true #强制 pull 远程仓库
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
